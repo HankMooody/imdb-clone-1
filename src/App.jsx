@@ -9,11 +9,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
-if (mobile) {
-   alert("Please View in Large screen")         
-} else {
-   toast.success("Welcome")
-}  
+  while (mobile) {
+    alert("Please View in Large screen")      
+  }
+
   return (
    <>
    
