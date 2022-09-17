@@ -318,3 +318,9 @@ margin:  2.5rem;
     font-size: .75rem;
     margin-bottom: 0.25rem;
 }
+
+@media only screen and (max-device-width:480px) {
+    /* show the popup */
+    #mobile { display: block; }
+}
+#mobile { display: none; }
